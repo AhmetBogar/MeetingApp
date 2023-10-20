@@ -1,0 +1,13 @@
+﻿@model UserInfo
+
+@{
+	ViewData["Title"] = "List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="text-center">
+	<h1 class="h4">Başvuru Sayfası</h1>
+	<p>İsim:@Model.Name</p>
+	<p>Email:@Model.Email</p>
+	<p>Telefon:@Model.Phone</p>
+</main>
